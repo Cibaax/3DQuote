@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Model3D from "../Model3d/Model3d";
 import { fetchModelsByProject } from "../../services/projectService";
-import "./Viewer3D.css";
+import "./Viewer3d.css";
 
 const Viewer3D = ({ setSelectedModel, selectedModel, selectedProject }) => {
   const [models, setModels] = useState([]);
