@@ -64,3 +64,31 @@
   li{
     font-family: 'Montserrat', sans-serif;
   }
+
+  .app-container {
+    display: flex;
+    flex-direction: row; /* Por defecto en escritorio */
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /* Aplicar estilos a los componentes */
+  .viewer-container,
+  .sidebar {
+    width: 50vw;
+    height: 100vh;
+  }
+  
+  /* Media Query para móviles */
+  @media (max-width: 768px) {
+    .app-container {
+      flex-direction: column; /* Cambia a vertical en móviles */
+    }
+  
+    .viewer-container,
+    .sidebar {
+      width: 100vw;
+      height: 50vh;
+    }
+  }
+  

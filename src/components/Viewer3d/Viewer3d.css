@@ -4,3 +4,11 @@
     background: #1e1e1e;
   }
   
+
+  @media (max-width: 768px) {
+  
+    .viewer-container{
+      width: 100vw;
+      height: 50vh;
+    }
+  }
