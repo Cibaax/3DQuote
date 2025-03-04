@@ -6,7 +6,6 @@
   }  
 
   .button-container .project-button {
-    background-color: #444;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -82,13 +81,16 @@
   /* Media Query para móviles */
   @media (max-width: 768px) {
     .app-container {
-      flex-direction: column; /* Cambia a vertical en móviles */
+      flex-direction: column-reverse; /* Cambia a vertical en móviles */
     }
   
-    .viewer-container,
     .sidebar {
       width: 100vw;
-      height: 50vh;
+      height: 70vh;
+    }
+    .viewer-container{
+      width: 100vw;
+      height: 30vh;
     }
   }
   
