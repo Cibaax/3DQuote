@@ -152,12 +152,3 @@ h2 {
 .project-button:hover {
   background: #555;
 }
-
-
-@media (max-width: 768px) {
-
-  .sidebar {
-    width: 100vw;
-    height: 50vh;
-  }
-}
